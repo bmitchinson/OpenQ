@@ -1,0 +1,24 @@
+{
+  "name": "openq",
+  "version": "1.0.0",
+  "description": "A live queue system open for anyone to request and vote on Spotify tracks for public playback.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmitchinson/OpenQ.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/bmitchinson/OpenQ/issues"
+  },
+  "homepage": "https://github.com/bmitchinson/OpenQ#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "password-generator": "^2.2.0"
+  }
+}
